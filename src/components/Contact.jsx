@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 export default function Contact() {
     const [formState, setFormState] = useState({
         email: '',
-        name: '',
-        message: '',
+        name:'',
+        message:''
     });
     const [errorMessage, setErrorMessage] = useState('');
     const {email, name, message} = formState;
@@ -14,20 +14,20 @@ export default function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMessage){
-            console.log('Submit Contact Form', formState);
+            console.log('Submit contact form', formState);
         }
     };
     const handleChange = (event) => {
         if(event.target.name==='email'){
             const isValid = validateEmail(event.target.value);
             if(!isValid){
-                setErrorMessage('Your email address is invalid.')
+                setErrorMessage('Email address is invalid.')
             } else {
                 setErrorMessage('');
             }
         } else {
             if (!event.target.value.length) {
-                setErrorMessage(`${event.target.name} is required.`)
+                setErrorMessage(`${event.target.name} is a required field.`)
             } else {
                 setErrorMessage('');
             }
@@ -47,9 +47,8 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Enter your email"
-              value={input}
+              value={email}
               name="email"
-              defaultValue={email}
               className="contact-input"
               onChange={handleChange} // check
             ></input>
@@ -57,9 +56,9 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Enter your name:"
-              value={input}
+              value={name}
               name="name"
-              defaultValue={name}
+            
               className="contact-input"
               onChange={handleChange} // check
             ></input>
@@ -67,22 +66,21 @@ export default function Contact() {
              <input
               type="text"
               placeholder="Enter your message: (must be 1-500 characters long)"
-              value={input}
+              value={message}
               name="message"
-              defaultValue={message}
               className="contact-input"
               onChange={handleChange} // check
             ></input>
         </div>
-            <button className="contact-button">Submit form</button>
+            <button type="submit" className="contact-button">Submit form</button>
           </form>
           <div>
             <ul className = "contact-list">
-                <li>malloryklR@gmail.com</li>
+                <li>malloryklar@gmail.com</li>
                 <li>561-926-xxxx</li>
                 <li><a href="https://www.linkedin.com/in/malloryklar">LinkedIn</a></li>
             </ul>
           </div>
         </div>
       )
-  }
+  } 
