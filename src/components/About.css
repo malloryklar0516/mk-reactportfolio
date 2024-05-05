@@ -1,0 +1,18 @@
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    background-color: lightyellow;  
+}
+/* .contactContainer li {
+    font-weight: bold;
+
+} */
+
+.cardHeader {
+     background-color: rgb(253, 253, 183);
+}
+
+.proPic {
+    width: 250, 
+}

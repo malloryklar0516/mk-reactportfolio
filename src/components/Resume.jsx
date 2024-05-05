@@ -1,6 +1,13 @@
 
 // downloadable resume
 function Resume(){
+    const skills = [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'React',
+        'Node'
+    ]
    return (
     <div>
         <h2>Mallory's Resume </h2>

@@ -1,20 +1,39 @@
-import propic from '../assets/images/headshot.jpeg'
-import {Link} from "react-router-dom";
+import propic from "../assets/images/headshot.jpeg";
+import { Link } from "react-router-dom";
+import { Hero, Navbar, NavLink } from "react-bulma-components";
+import './Header.css'
 function Header() {
+  return (
+    <Hero className="header">
+      <Hero.Header>
+        <Navbar className="navigation">
+          <Navbar.Item className='navItem'  >
+            <Link to="/" className="navText">
+              About Me
+             </Link>
+           </Navbar.Item >
+          <Navbar.Item className='navItem' > 
+            <Link to="/Portfolio" className="navText">
+              My Portfolio
+            </Link>
+           </Navbar.Item >
+          <Navbar.Item className='navItem' > 
+            <Link to="/Resume" className="navText">
+              Resume
+             </Link>
+           </Navbar.Item >
+          <Navbar.Item className='navItem' > 
+            <Link to="/Contact" className="navText">
+              Contact Me
+            </Link>
+          </Navbar.Item>
+        </Navbar>
+        <h1 className="title is-4">Mallory Klar</h1>
+        <p className="subtitle is-5">Full Stack Web Developer</p>
+       
+      </Hero.Header>
+    </Hero>
+  );
+}
 
-    return (
-        
-      <div className="header">
-       <h1> Mallory Klar</h1>
-       <img src={propic} alt="propic" width="200px" height = "200px"></img>
-       <nav className="navigation">
-<Link to="/" className="navText">About Me</Link>
-<Link to="/Portfolio" className="navText">My Portfolio</Link>
-<Link to="/Resume" className="navText">Resume</Link>
-<Link to="/Contact" className="navText">Contact Me</Link>
-</nav>
-      </div>
-    );
-  }
-
-  export default Header; 
+export default Header;

@@ -1,9 +1,11 @@
+import { Hero } from 'react-bulma-components';
+import './Header.css'
 function Footer() {
     return (
 
-        <div className="footer">
-          <h2>Thanks for visiting!</h2>
-        </div>
+        <Hero.Footer className='footer'>
+          {/* <h2>Thanks for visiting!</h2> */}
+        </Hero.Footer>
     );
   }
   
