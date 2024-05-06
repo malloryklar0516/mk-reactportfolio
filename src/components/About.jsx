@@ -1,6 +1,6 @@
 import {Card, Image} from 'react-bulma-components'
 import propic from '../assets/images/headshot.jpeg'
-import './about.css'
+import './About.css'
 export default function About() {
     return (
       <div>
