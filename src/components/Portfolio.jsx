@@ -8,21 +8,21 @@ function Portfolio(){
     const projects = [ 
         {
             projectName: "New Movie Dashboard",
-            description: "Front-end application that uses third party APIs to display information and trailers for a curated set of new releases. Application functionality also includes ability users to add movies to their 'must-see list' using local storage. ",
+            description: "Front-end application that uses third party APIs to display information and trailers for a curated set of new releases. Application functionality also includes ability users to add movies to their 'must-see list' using local storage. (HTML, CSS, JavaScript, Jquery, Youtube API, OMDB API) ",
             projectLink:  "https://malloryklar0516.github.io/moviedash/",
             repoLink: "https://github.com/malloryklar0516/moviedash/",
             projectImg: movie
         },
         {
             projectName: "Weather Dashboard",
-            description: "An application that displays current weather and the five-day weather forecast for a city based on the user’s search query. The application updates dynamically in HTML and CSS by search.",
+            description: "An application that displays current weather and the five-day weather forecast for a city based on the user’s search query. The application updates dynamically in HTML and CSS by search. (HTML, CSS, JavaScript)",
             projectLink: "https://malloryklar0516.github.io/weather-dashboard/",
             repoLink: "https://github.com/malloryklar0516/weather-dashboard",
             projectImg: weather
 
         },
-        {projectName: "Fitness Tracker (HTML/CSS/JS)",
-            description: "An interactive, full-stack application that allows users to create an account, sign in/log out, and track their fitness progress.",
+        {projectName: "Fitness Tracker",
+            description: "An interactive, full-stack application that allows users to create an account, sign in/log out, and track their fitness progress. (HTML, CSS, JavaScript, Node.js, Sequelize, Bcrypt, mysql2).",
             projectLink: "https://track-my-fitness-46708e767d62.herokuapp.com",
             repoLink: "https://github.com/malloryklar0516/fitnesstracker",
             projectImg: fitness
