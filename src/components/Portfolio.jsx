@@ -8,7 +8,7 @@ function Portfolio(){
     const projects = [ 
         {
             projectName: "New Movie Dashboard",
-            description: "Front-end application that uses third party APIs to display information and trailers for a curated set of new releases. Application functionality also includes ability users to add movies to their 'must-see list' using local storage. (HTML, CSS, JavaScript, jQuery, Youtube API, OMDB API) ",
+            description: "Front-end application that uses third party APIs to display information and trailers for a curated set of new releases. Application functionality also includes the ability for users to add movies to their 'must-see list' using local storage. (HTML, CSS, JavaScript, jQuery, Youtube API, OMDB API) ",
             projectLink:  "https://malloryklar0516.github.io/moviedash/",
             repoLink: "https://github.com/malloryklar0516/moviedash/",
             projectImg: movie
