@@ -84,7 +84,6 @@ export default function Contact() {
           <ul className = "contact-list">
                 <li>Email: <a href="mailto:malloryklar@gmail.com">malloryklar@gmail.com</a></li>
                 <li>LinkedIn Profile: <a href="https://www.linkedin.com/in/malloryklar">Click here to view Mallory's profile</a></li>
-                <li> See resume for additional information</li>
         </ul>
           </Card.Content>
           </Card>
