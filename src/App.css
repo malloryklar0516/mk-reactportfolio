@@ -1,5 +1,6 @@
 * { 
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 html {
     line-height: 1.15;
@@ -7,6 +8,10 @@ html {
     -webkit-text-size-adjust: 100%;
     /* 2 */
   }
+  .main{
+background-color: darkturquoise;
+  }
+  
 /* .header, .footer {
     background-color: light gray;
     color: purple; 

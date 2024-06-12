@@ -14,10 +14,10 @@ function Project({ project }) {
           <p className="subtitle is-6">{description}</p>
           <ul className="projLinks">
             <li>
-            <a href={projectLink}>Deployed Project</a>
+            <a href={projectLink} style={{color:'darkslategray'}}>Deployed Project</a>
             </li>
             <li>
-            <a href={repoLink}>Github Repo</a> 
+            <a href={repoLink}style={{color:'darkslategray'}}>Github Repo</a> 
             </li>
           </ul>
         </Card.Content>

@@ -2,7 +2,7 @@
 .contactContainer {
     display: flex;
     justify-content: center;
-    background-color: lightyellow;  
+    background-color: rgb(103, 88, 201);  
 }
 .contactContainer li {
     font-weight: bold;
@@ -10,6 +10,6 @@
 }
 
 .cardHeader {
-     background-color: rgb(253, 253, 183);
+     background-color: darkslateblue;
 }
 

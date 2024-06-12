@@ -77,13 +77,14 @@ export default function Contact() {
           <div> */}
           <Card style={{width: 700, margin:'auto'}}>
           <Card.Header className="cardHeader">
-            <Card.Header.Title className="contact-title">Mallory's Contact Information </Card.Header.Title>
+            <Card.Header.Title className="contact-title" textColor="white">Mallory's Contact Information </Card.Header.Title>
             <Card.Header.Icon></Card.Header.Icon>
-          </Card.Header>
+          </Card.Header >
           <Card.Content className='contactContainer'>
           <ul className = "contact-list">
-                <li>Email: <a href="mailto:malloryklar@gmail.com">malloryklar@gmail.com</a></li>
-                <li>LinkedIn Profile: <a href="https://www.linkedin.com/in/malloryklar">Click here to view Mallory's profile</a></li>
+                <li><i class="fa fa-envelope" style={{color:"white"}}></i> <a href="mailto:malloryklar@gmail.com">   Click to send me an email</a></li>
+                <li> <i class="fa fa-linkedin" style={{color:"white"}}></i><a href="https://www.linkedin.com/in/malloryklar">   View my LinkedIn profile</a></li>
+                    <li><i class="fa fa-github" style={{color:"white"}}></i> <a href="https://github.com/malloryklar0516">    View my GitHub</a></li>
         </ul>
           </Card.Content>
           </Card>

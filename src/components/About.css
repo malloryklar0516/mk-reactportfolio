@@ -1,18 +1,40 @@
 
-.aboutContainer {
+/* .aboutContainer {
     display: flex;
     justify-content: center;
     background-color: lightyellow;  
-}
+} */
 /* .contactContainer li {
     font-weight: bold;
 
 } */
-
-.cardHeader {
-     background-color: rgb(253, 253, 183);
+a {
+    color:white;
 }
-
+.resTile {
+     background-color: darkcyan;
+}
+.titleTile {
+    background-color: rgb(107, 37, 173);
+}
+.gitTile {
+    background-color: darkorchid;
+}
+.linkTile{
+    background-color: rgb(75, 75, 239);
+}
+.picTile{
+    background-color: white;
+}
+.descTile{
+    background-color: darkslategrey;
+}
+.mailTile{
+    background-color: darkslateblue;
+}
+.nameTile{
+    background-color: darkturquoise;
+}
 .proPic {
     width: 250, 
 }

@@ -28,9 +28,9 @@ function Header() {
             </Link>
           </Navbar.Item>
         </Navbar>
-        <h1 className="title is-4">Mallory Klar</h1>
+        {/* <h1 className="title is-4">Mallory Klar</h1>
         <p className="subtitle is-5">Full Stack Web Developer</p>
-       
+        */}
       </Hero.Header>
     </Hero>
   );

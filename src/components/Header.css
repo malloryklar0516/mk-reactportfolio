@@ -1,9 +1,12 @@
 .navItem { 
-    background-color: lightyellow;
+    background-color: darkturquoise;
 }
 
 .footer {
-    background-color: lightyellow;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    background-color: darkturquoise;
+    margin-top: 100px;
+    
+}
+.navText{
+    color:darkslategray
 }
