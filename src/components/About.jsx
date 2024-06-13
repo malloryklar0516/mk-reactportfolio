@@ -30,7 +30,7 @@ export default function About() {
               </Tile>
               <Tile kind="parent" vertical>
             <Tile kind="child" renderAs={Box} className="resTile" >
-            <p ><i class="fa fa-download" style={{color:"white"}}></i><a href='https://docs.google.com/document/d/e/2PACX-1vSQ51v9sb9RqQSSH5-m2wu00Za5nUQJSboChn1pgoiCMGO0hHslyaSF82oUUTRc_Bf5io2dWi8z88y2/pub' >   View/Download My Resume </a></p>
+            <p ><i class="fa fa-download" style={{color:"white"}}></i><a href='https://docs.google.com/document/d/e/2PACX-1vSQ51v9sb9RqQSSH5-m2wu00Za5nUQJSboChn1pgoiCMGO0hHslyaSF82oUUTRc_Bf5io2dWi8z88y2/pub' >   View My Resume </a></p>
               </Tile>
               <Tile kind ="child" renderAs={Box} className="mailTile">
               <p><i class="fa fa-envelope" style={{color:"white"}}></i><a href="mailto:malloryklar@gmail.com">  Click to send me an email</a></p>

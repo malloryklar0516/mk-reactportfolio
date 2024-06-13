@@ -13,12 +13,9 @@ function Resume(){
    return (
     <Section>
     <Card>
-        <Card.Header className="resumeHeader" textColor="white">
-        <h2>Mallory's Resume </h2>
-        </Card.Header>
     <Card.Content className='resumeContent'>
     <div className='resume-file'>
-        <p> <a href='https://docs.google.com/document/d/e/2PACX-1vSQ51v9sb9RqQSSH5-m2wu00Za5nUQJSboChn1pgoiCMGO0hHslyaSF82oUUTRc_Bf5io2dWi8z88y2/pub'> Click to View/Download My Resume</a></p>
+        <p> <a href='https://docs.google.com/document/d/e/2PACX-1vSQ51v9sb9RqQSSH5-m2wu00Za5nUQJSboChn1pgoiCMGO0hHslyaSF82oUUTRc_Bf5io2dWi8z88y2/pub'> Click to View My Resume</a></p>
     </div>
     </Card.Content>
    
