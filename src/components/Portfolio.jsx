@@ -1,9 +1,11 @@
 import Project from "./Project";
 import placeholder from "../assets/images/placeholder.jpeg"
-import fitness from "../assets/images/fitness.jpeg"
-import movie from "../assets/images/movie.jpeg"
+import fitness from "../assets/images/fitness2.jpeg"
+import movie from "../assets/images/moviedemo.jpeg"
 import book from "../assets/images/book.jpeg"
-import weather from "../assets/images/weather.jpeg"
+import weather from "../assets/images/weather2.jpeg"
+import quiz from "../assets/images/quiz.jpeg"
+import work from "../assets/images/work.jpeg"
 function Portfolio(){
     const projects = [ 
         {
@@ -26,6 +28,18 @@ function Portfolio(){
             projectLink: "https://track-my-fitness-46708e767d62.herokuapp.com",
             repoLink: "https://github.com/malloryklar0516/fitnesstracker",
             projectImg: fitness
+    }, {
+        projectName: "Coding Quiz",
+        description: "An interactive timed quiz on coding fundamentals that stores high scores, allowing the user to compare their score to peers. (HTML, CSS, JavaScript)",
+        projectLink: "https://malloryklar0516.github.io/codingquiz516/",
+        repoLink: "https://github.com/malloryklar0516/codingquiz516/",
+        projectImg: quiz
+    }, 
+    {projectName: "Work Day Scheduler",
+    description: "Interactive calendar application that allows a user to save events for each our of a particular work day. The event will change color based on whether it is past, future or present. (HTML, CSS, JavaScript, Day.js, jQuery, Bootstrap)",
+    projectLink: "https://malloryklar0516.github.io/workdayscheduler516/",
+    repoLink:"https://github.com/malloryklar0516/workdayscheduler516/",
+    projectImg: work
     }
     // , 
     // {projectName: "Book App",

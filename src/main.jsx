@@ -33,7 +33,7 @@ children: [
 ReactDOM.createRoot(document.querySelector('#app')).render(
     <RouterProvider router={router} />
 );
-<AnimatedCursor
+{/* <AnimatedCursor
 innerSize={8}
 outerSize={35}
 innerScale={1}
@@ -45,4 +45,4 @@ outerStyle={{
 innerStyle={{
   backgroundColor: 'var(--cursor-color)'
 }}
-/>
+/> */}
